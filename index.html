@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="flags">
+            <div class="flag">
+                <input type="checkbox" id="timeout">
+                <label for="timeout">Set timeout</label>
+                <input class="miliseconds" type="number" placeholder="Timeout in ms..." value="1000">
+                <span>ms</span>
+            </div>
+            <div class="flag">
+                <input type="checkbox" id="status">
+                <label for="status">Get status every</label>
+                <input class="interval" type="number" placeholder="Interval in ms..." value="1000">
+                <span>ms</span>
+            </div>
+        </div>
+        <div class="body">
+            <div class="canceled">
+                
+            </div>
+            <div class="task-status">
+            </div>
+        </div>
+        <div class="footer">
+            <button class="execute">Execute</button>
+        </div>
+    </div>
+    
+    
+    <script src="STEK_FE.js"></script>
+</body>
+</html>
